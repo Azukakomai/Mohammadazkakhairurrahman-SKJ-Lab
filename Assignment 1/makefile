@@ -1,9 +1,10 @@
 all:
-	g++ addnumbers.cpp -o addnumbers
+	g++ add5.cpp -o add5
 dump:
-	objdump -d addnumbers > addnumbers.asm
+	objdump -d add5 > add5.asm
 clean:
-	rm -f addnumbers addnumbers.asm
+	rm -f add5 add5.asm
 run:
-	./addnumbers
+	./add5
+
 
